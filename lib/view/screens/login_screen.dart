@@ -1,6 +1,17 @@
+import 'package:delivery/view/screens/home_page.dart';
+import 'package:delivery/view/screens/structure.dart';
 import 'package:flutter/material.dart';
+import 'package:get/route_manager.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:get/get.dart';
+
+/*
+Esta página é referente ao login / cadastramento no aplicativo, o usuário será
+redicionado para esta página após o splashscreen.
+This page refers to login / registration in the application, the user will be
+redirected to this page after the splashscreen.
+*/
 
 class loginScreen extends StatelessWidget {
   const loginScreen({Key? key}) : super(key: key);
@@ -130,7 +141,9 @@ class loginScreen extends StatelessWidget {
                         color: const Color(0xFFF54749),
                       ),
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Get.off(const StructurePage());
+                        },
                         child: const Text(
                           'Entrar',
                           style: TextStyle(

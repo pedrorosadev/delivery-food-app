@@ -7,6 +7,7 @@ It is a mobile app made with Dart/Flutter for the purpose of food being a "Deliv
 ## Tela do Aplicativo | Application Screen
 
 Você pode visualizar o vídeo do aplicativo funcionando em assets/Images_project/app.mp4
+
 You can watch the video of the functioning aplication in assets/Images_project/app.mp4 
 
 <img src="assets/Images_project/splash_screen.png" width="300">
